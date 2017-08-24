@@ -9,7 +9,6 @@
 
 class PCAReducer {
 private:
-//public://remove later
     Eigen::MatrixXf X_train;
     Eigen::VectorXf pca_mean;
     unsigned int n_components;
